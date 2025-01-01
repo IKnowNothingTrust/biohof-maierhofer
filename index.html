@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .background {
+        height: 100vh;
+        width: 100%;
+        object-fit: cover;
+        filter: brightness(0.5);
+      }
+      body {
+        margin: 0;
+      }
+      .container {
+        position: absolute;
+        right: 32px;
+        left: 16px;
+        top: 12px;
+        font-size: 24px;
+        font-family: arial;
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+      }
+      .link {
+        color: white;
+        text-decoration: none;
+        font-family: Arial;
+        margin-left: 16px;
+      }
+      .link:hover {
+        text-decoration: underline;
+      }
+      .logo {
+        scale: 0.7;
+      }
+      .überschrift {
+        position: absolute;
+        left: 50px;
+        top: 150px;
+        color: white;
+        font-size: 120;
+        width: 500px;
+        font-family: arial;
+        text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.8);
+      }
+      .biohof {
+        color: rgb(234, 209, 124);
+      }
+      .h2 {
+        position: absolute;
+        left: 50px;
+        top: 250px;
+        color: white;
+        font-size: 20px;
+        font-family: arial;
+        width: 450px;
+      }
+      .button {
+        background-color: rgb(234, 209, 124);
+        padding: 6px 30px;
+        border-radius: 9px;
+        box-shadow: 8px;
+        color: black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <img class="background" src="img/background.jpg" alt="" />
+    <div class="container">
+      <img class="logo" src="img/logo.png" alt="" />
+      <div>
+        <a class="link" href="produkte.html">Produkte</a>
+        <a class="link" href="Kontakt.html">Kontakt</a>
+        <a class="link button" href="anruf.html">Anruf</a>
+      </div>
+    </div>
+
+    <h1 class="überschrift"><span class="biohof">Biohof Maierhofer</span></h1>
+    <h2 class="h2">
+      ja, keine ahnung, halt hier so text hier einfügen. - Lorem ipsum dolor sit
+      amet consectetur adipisicing elit.
+    </h2>
+  </body>
+</html>
